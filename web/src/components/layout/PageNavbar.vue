@@ -7,8 +7,8 @@
       />
 
       <v-toolbar-title class="navbar-title">
-        <router-link v-if="reportName" :to="to"> DOLOS - {{ reportName }} </router-link>
-        <router-link v-else :to="to"> DOLOS </router-link>
+        <router-link v-if="reportName" :to="to"> Plagiarism - {{ reportName }} </router-link>
+        <router-link v-else :to="to"> Plagiarism </router-link>
       </v-toolbar-title>
 
       <v-spacer />

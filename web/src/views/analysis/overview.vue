@@ -4,7 +4,7 @@
       <h2 v-if="reportName" class="hero-title">
         {{ reportName }}
       </h2>
-      <h2 v-else class="hero-title">Dolos</h2>
+      <h2 v-else class="hero-title">Plagiarism</h2>
       <div class="hero-subtitle text-medium-emphasis">
         Source code plagiarism detection report
       </div>

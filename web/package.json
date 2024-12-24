@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "dev:server": "VITE_API_URL=http://localhost:3000 VITE_MODE=server vite",
+    "dev:server": "VITE_API_URL=https://dolos.ugent.be/api VITE_MODE=server vite",
     "build": "vue-tsc --noEmit && vite build",
     "build:server": "VITE_MODE=server vite build",
     "preview": "vite preview",
@@ -66,5 +66,8 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/dodona-edu/dolos.git"
+  },
+  "dependencies": {
+    "@vueuse/shared": "^12.0.0"
   }
 }

@@ -88,16 +88,6 @@
       <v-divider />
 
       <v-list nav density="compact">
-        <v-list-item
-          href="https://github.com/dodona-edu/dolos"
-          target="_blank"
-          link
-        >
-          <template #prepend>
-            <v-icon>mdi-github</v-icon>
-          </template>
-          <v-list-item-title>Github</v-list-item-title>
-        </v-list-item>
 
         <v-list-item href="https://dolos.ugent.be" target="_blank" link>
           <template #prepend>
@@ -125,7 +115,7 @@
           <template #prepend>
             <v-icon>mdi-tag-outline</v-icon>
           </template>
-          <v-list-item-title> Dolos - v{{ version }} </v-list-item-title>
+          <v-list-item-title> v{{ version }} </v-list-item-title>
         </v-list-item>
       </v-list>
     </template>
